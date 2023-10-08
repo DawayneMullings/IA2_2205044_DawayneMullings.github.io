@@ -1,0 +1,447 @@
+ *
+ {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+
+nav
+{
+    padding: 10px 20px;
+    text-align: center;
+    letter-spacing: 50px;
+    border: solid;
+    border-color: rgb(78, 65, 47);
+    height: 80px;
+    width: 100%;
+}
+
+label.myname
+{
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px 0px 20px;
+    font-weight: bold;
+}
+
+nav a
+{
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+a.active,a:hover
+{
+    background:rgb(78, 65, 47);
+    transition: 0.5s;
+}
+
+.container 
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../Assets/image1.jpeg); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.testimonial
+{
+    padding: 30px 100px;
+}
+
+article h1
+{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+article h1::after
+{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+
+article img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid white 2px;
+    margin-top: 60px;
+}
+
+blockquote
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+article h5
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+article p
+{
+    font-size: 17px;
+}
+
+.resumecontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6eb0c4;
+}
+
+.resume
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    box-shadow: 0px 35px 55px rgba(0,0,0,0.1);
+    margin: 50px;
+}
+
+.resume .leftside
+{
+    background: #003147;
+    position: relative;
+    padding: 40px;
+}
+
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+}
+
+.profiletext .imgbox
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid white 2px;
+}
+
+.profiletext .imgbox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profiletext h2
+{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.8em;
+}
+
+.profiletext h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactinfo
+{
+    padding-top: 40px;
+}
+
+.title
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactinfo ul
+{
+    position: relative;
+}
+
+.contactinfo ul li
+{
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width:30px;
+    font-size: 18px;
+    color: #038cfc;
+}
+
+.contactinfo ul li span
+{
+    font-weight: 300;
+}
+
+.contactinfo.education li
+{
+    margin-bottom: 15px;
+}
+
+.contactinfo.education h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+    text-align: left;  
+}
+
+.contactinfo.education h4
+{
+    font-weight: 500;
+    text-align: left;
+}
+
+.contactinfo.education h4:nth-child(2)
+{
+    font-weight: 500;
+}
+
+.resume .rightside
+{
+    background: #fff;   
+    position: relative;
+    padding: 40px; 
+}
+
+.about
+{
+    margin-bottom: 50px;
+}
+
+.about:last-child
+{
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+p
+{
+    color: #333;
+    text-align: left;
+}
+
+.about .box 
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company
+{
+    min-width: 150px;
+}
+
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    text-align: left;
+    font-weight: 600;
+}
+
+.about .box .text h4
+{
+    text-align: left;
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.personalitycontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6eb0c4;
+}
+
+
+.personality
+{
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0px 35px 55px rgba(0,0,0,0.1);
+    margin:50px;
+}
+
+.personality .leftside
+{
+    position: relative;
+    padding: 40px;
+}
+
+.personality ul li, h4
+{
+    padding-top: 15px;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.personality .middle
+{
+    position: relative;
+    padding: 40px;
+}
+
+.personality .rightside
+{
+    position: relative;
+    padding: 40px;
+}
+
+
+.personaldevelopementcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6eb0c4;
+}
+
+
+.personaldevelopement
+{
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0px 35px 55px rgba(0,0,0,0.1);
+    margin:50px;
+}
+
+.personaldevelopement .leftside
+{
+    position: relative;
+    padding: 40px;
+}
+
+.personaldevelopement ul li, h4
+{
+    padding-top: 15px;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.personaldevelopement .middle
+{
+    position: relative;
+    padding: 40px;
+}
+
+.personaldevelopement .rightside
+{
+    position: relative;
+    padding: 40px;
+}
+
+ol li
+{
+    color: #333;
+    text-align: left;
+}
+
+.storyboardcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6eb0c4;
+}
+
+.storyboard
+{
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0px 35px 55px rgba(0,0,0,0.1);
+    margin:50px;
+}
+
+.storyboard .leftside
+{
+    position: relative;
+    padding: 40px;
+}
+
+.storyboard .middle
+{
+    position: relative;
+    padding: 40px;
+}
+
+.storyboard .rightside
+{
+    position: relative;
+    padding: 40px;
+}
